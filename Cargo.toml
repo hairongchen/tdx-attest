@@ -1,0 +1,19 @@
+[package]
+name = "tdx_attest"
+version = "0.1.0"
+edition = "2021"
+authors = ["Hairong Chen <hairong.chen@intel.com>"]
+description = "A rust lib to get TD Report and TDX quote"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/hairongchen/tdx-attest.git"
+
+[lib]
+name = "tdx_attest"
+path = "src/tdx_attest.rs"
+
+[dependencies]
+nix = "0.26.2"
+base64 = "0.13.0"
+anyhow = "1.0"
+
